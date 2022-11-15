@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzObjectOriented", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzFunctional", "Test\FizzBuzzFunctional.csproj", "{F21BB668-B72C-4394-A6C0-276E3D4CA928}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{75678B6F-4BB2-43F8-9B2A-9E4B90A5C99A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F21BB668-B72C-4394-A6C0-276E3D4CA928}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F21BB668-B72C-4394-A6C0-276E3D4CA928}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F21BB668-B72C-4394-A6C0-276E3D4CA928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75678B6F-4BB2-43F8-9B2A-9E4B90A5C99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75678B6F-4BB2-43F8-9B2A-9E4B90A5C99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75678B6F-4BB2-43F8-9B2A-9E4B90A5C99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75678B6F-4BB2-43F8-9B2A-9E4B90A5C99A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
