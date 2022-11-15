@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAdvanced", "CSharpAdvanced\CSharpAdvanced.csproj", "{D5E3FA27-D7A8-4A1E-8CAD-D67916C3840F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzObjectOriented", "CSharpAdvanced\FizzBuzzObjectOriented.csproj", "{D5E3FA27-D7A8-4A1E-8CAD-D67916C3840F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzFunctional", "Test\FizzBuzzFunctional.csproj", "{F21BB668-B72C-4394-A6C0-276E3D4CA928}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D5E3FA27-D7A8-4A1E-8CAD-D67916C3840F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5E3FA27-D7A8-4A1E-8CAD-D67916C3840F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5E3FA27-D7A8-4A1E-8CAD-D67916C3840F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F21BB668-B72C-4394-A6C0-276E3D4CA928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21BB668-B72C-4394-A6C0-276E3D4CA928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21BB668-B72C-4394-A6C0-276E3D4CA928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21BB668-B72C-4394-A6C0-276E3D4CA928}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
