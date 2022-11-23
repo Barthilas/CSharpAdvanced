@@ -15,11 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hoisting", "Hoisting\Hoisti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActionFunc", "ActionFunc\ActionFunc.csproj", "{BC9A2658-BF2F-42DC-B116-52066286F7A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorBlock", "IteratorBlock\IteratorBlock.csproj", "{438A3EDA-839E-4C3B-8D3B-5866DF506C89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorBlock", "IteratorBlock\IteratorBlock.csproj", "{438A3EDA-839E-4C3B-8D3B-5866DF506C89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewExample", "Review Example\ReviewExample.csproj", "{B72ABE17-FF5E-4A58-9E51-739A434F683A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReviewExample", "Review Example\ReviewExample.csproj", "{B72ABE17-FF5E-4A58-9E51-739A434F683A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntroduction", "Generics\GenericsIntroduction.csproj", "{2C95A734-3819-44FC-A679-FC06DD37342E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntroduction", "Generics\GenericsIntroduction.csproj", "{2C95A734-3819-44FC-A679-FC06DD37342E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "part2", "part2", "{5F056B87-BF31-4D2F-A5CD-5EE5EF199691}"
 EndProject
@@ -33,13 +33,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "part5", "part5", "{19C505CD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "part6", "part6", "{9E691550-192C-4061-9637-CE2F6DB5FE68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericLinkedList", "GenericLinkedList\GenericLinkedList.csproj", "{B727F9AF-7A33-4D35-B1FE-BCE501237FF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericLinkedList", "GenericLinkedList\GenericLinkedList.csproj", "{B727F9AF-7A33-4D35-B1FE-BCE501237FF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMethod", "GenericMethod\GenericMethod.csproj", "{237BEA09-D16D-43AD-9CD1-B498ED189467}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericMethod", "GenericMethod\GenericMethod.csproj", "{237BEA09-D16D-43AD-9CD1-B498ED189467}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMethodLinq", "GenericMethodLinq\GenericMethodLinq.csproj", "{FD6C9C07-6965-4AFF-9026-E15DAA7167DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericMethodLinq", "GenericMethodLinq\GenericMethodLinq.csproj", "{FD6C9C07-6965-4AFF-9026-E15DAA7167DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEnumerableExtension", "MyEnumerableExtension\MyEnumerableExtension.csproj", "{67406769-B295-4F92-9296-89599EC30DC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyEnumerableExtension", "MyEnumerableExtension\MyEnumerableExtension.csproj", "{67406769-B295-4F92-9296-89599EC30DC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEnumerableConfussion", "IEnumerableConfussion\IEnumerableConfussion.csproj", "{DBACED43-92F6-4D57-9673-6C02D57D123C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQExample", "LinQExample\LinQExample.csproj", "{D73BB22D-D910-491D-9F0F-F2489972495C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{67406769-B295-4F92-9296-89599EC30DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67406769-B295-4F92-9296-89599EC30DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67406769-B295-4F92-9296-89599EC30DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBACED43-92F6-4D57-9673-6C02D57D123C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBACED43-92F6-4D57-9673-6C02D57D123C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBACED43-92F6-4D57-9673-6C02D57D123C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBACED43-92F6-4D57-9673-6C02D57D123C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73BB22D-D910-491D-9F0F-F2489972495C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73BB22D-D910-491D-9F0F-F2489972495C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73BB22D-D910-491D-9F0F-F2489972495C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73BB22D-D910-491D-9F0F-F2489972495C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +129,8 @@ Global
 		{237BEA09-D16D-43AD-9CD1-B498ED189467} = {5F056B87-BF31-4D2F-A5CD-5EE5EF199691}
 		{FD6C9C07-6965-4AFF-9026-E15DAA7167DE} = {5F056B87-BF31-4D2F-A5CD-5EE5EF199691}
 		{67406769-B295-4F92-9296-89599EC30DC4} = {5F056B87-BF31-4D2F-A5CD-5EE5EF199691}
+		{DBACED43-92F6-4D57-9673-6C02D57D123C} = {016F33DA-6DF6-401B-A8BD-2234A2604D60}
+		{D73BB22D-D910-491D-9F0F-F2489972495C} = {016F33DA-6DF6-401B-A8BD-2234A2604D60}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D377785C-D1BF-4FDC-A340-E4F8D78E9687}
