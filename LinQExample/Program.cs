@@ -52,7 +52,22 @@
 
             foreach (var item in listA.MyUnion(listB, StringComparer.CurrentCultureIgnoreCase))
                 Console.WriteLine("{0} ", item);
+
+            var people = new[] { new Person  ("Nelson", "LaQuet") };
+            var peopleByFirstName = people.MyToDictionary(k => k.FirstName, v => v);
         }
+    }
+    class Person
+    {
+        public Person(string firstName, string lastName)
+        {
+            FirstName = firstName ?? throw new ArgumentNullException(nameof(firstName));
+            LastName = lastName ?? throw new ArgumentNullException(nameof(lastName));
+        }
+
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
     }
     public static class MyExtension
     {
@@ -114,7 +129,8 @@
 
         }
 
-        public static Dictionary<TKey,TValue> MyToDictionary<TSource, TKey, TValue>(this IEnumerable<TSource> source,
+        public static Dictionary<TKey,TValue> MyToDictionary<TSource, TKey, TValue>(
+            this IEnumerable<TSource> source,
             Func<TSource, TKey> keyProjection,
             Func<TSource, TValue> valueProjection)
         {

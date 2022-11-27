@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyEnumerableExtension", "My
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEnumerableConfussion", "IEnumerableConfussion\IEnumerableConfussion.csproj", "{DBACED43-92F6-4D57-9673-6C02D57D123C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQExample", "LinQExample\LinQExample.csproj", "{D73BB22D-D910-491D-9F0F-F2489972495C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqExample", "LinQExample\LinqExample.csproj", "{D73BB22D-D910-491D-9F0F-F2489972495C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqExample1", "LinqExample1\LinqExample1.csproj", "{C3498159-EEB6-4FB7-80AA-2DBA9DECA2F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{D73BB22D-D910-491D-9F0F-F2489972495C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D73BB22D-D910-491D-9F0F-F2489972495C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D73BB22D-D910-491D-9F0F-F2489972495C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3498159-EEB6-4FB7-80AA-2DBA9DECA2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3498159-EEB6-4FB7-80AA-2DBA9DECA2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3498159-EEB6-4FB7-80AA-2DBA9DECA2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3498159-EEB6-4FB7-80AA-2DBA9DECA2F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +137,7 @@ Global
 		{67406769-B295-4F92-9296-89599EC30DC4} = {5F056B87-BF31-4D2F-A5CD-5EE5EF199691}
 		{DBACED43-92F6-4D57-9673-6C02D57D123C} = {016F33DA-6DF6-401B-A8BD-2234A2604D60}
 		{D73BB22D-D910-491D-9F0F-F2489972495C} = {016F33DA-6DF6-401B-A8BD-2234A2604D60}
+		{C3498159-EEB6-4FB7-80AA-2DBA9DECA2F2} = {10F5A881-0DD4-4088-8789-731029AFC27B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D377785C-D1BF-4FDC-A340-E4F8D78E9687}
