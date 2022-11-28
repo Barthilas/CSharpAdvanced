@@ -131,6 +131,12 @@ namespace LinqExample1
             {
                 Console.WriteLine(note);
             }
+
+            // different syntax
+            var ppl22 = from person in people where
+                      person.FirstName.StartsWith("R") orderby person.LastName select person.LastName;
+
+            var ppl23 = people.Where(p => p.FirstName.StartsWith("R")).OrderBy(p => p.LastName).Select(p => p.LastName);
         }
     }
 
@@ -204,11 +210,11 @@ namespace LinqExample1
             IEnumerable<TSource> second,
             IEqualityComparer<TSource> comparer)
         {
-            while(true)
+            using (var thatEnumerator = that.GetEnumerator())
             {
-                using (var thatEnumerator = that.GetEnumerator())
+                using (var secondEnumerator = second.GetEnumerator())
                 {
-                    using (var secondEnumerator = second.GetEnumerator())
+                    while (true)
                     {
                         var thatHasMoreItems = thatEnumerator.MoveNext();
                         var secondHasMoreItems = secondEnumerator.MoveNext();
@@ -218,19 +224,24 @@ namespace LinqExample1
                         if (thatHasMoreItems != secondHasMoreItems)
                             return false;
 
+                        // cannot use != (reference comparison)
                         if (!comparer.Equals(thatEnumerator.Current, secondEnumerator.Current))
                             return false;
                     }
                 }
             }
+
         }
 
-        //public static IEnumerable<TResult> Zip<TSource, TSecond, TResult>(
-        //    this IEnumerable<TSource> that,
-        //    IEnumerable<TSecond> second,
-        //    Func<TSource, TSecond, TResult> projection)
-        //{
-
-        //}
+        public static IEnumerable<TResult> Zip<TSource, TSecond, TResult>(
+            this IEnumerable<TSource> that,
+            IEnumerable<TSecond> second,
+            Func<TSource, TSecond, TResult> projection)
+        {
+            using (var thatEnumerator = that.GetEnumerator())
+            using (var secondEnumerator = second.GetEnumerator())
+                while (thatEnumerator.MoveNext() && secondEnumerator.MoveNext())
+                    yield return projection(thatEnumerator.Current, secondEnumerator.Current);
+        }
     }
 }
