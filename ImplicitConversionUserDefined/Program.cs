@@ -48,7 +48,7 @@
             //    return new Vector3(rhs.X, rhs.Y, 0);
             //}
 
-            //!!!!! NEVER DO THIS, BAD DESIGN !!!!! (Overloading of operators)
+            //!!!!! NEVER DO THIS, BAD DESIGN !!!!! (Abuse of operators - this is parsing)
             // REASON: Input can be interpreted in so many other ways. We want logical 1:1 conversion. NOT TO USE IT FOR PARSING.
             public static implicit operator Vector3(string str)
             {

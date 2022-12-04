@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32630.192
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzObjectOriented", "CSharpAdvanced\FizzBuzzObjectOriented.csproj", "{D5E3FA27-D7A8-4A1E-8CAD-D67916C3840F}"
 EndProject
@@ -47,9 +47,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqExample", "LinQExample\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqExample1", "LinqExample1\LinqExample1.csproj", "{C3498159-EEB6-4FB7-80AA-2DBA9DECA2F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitTyping", "ImplicitTyping\ImplicitTyping.csproj", "{124A60A9-0AF2-4C7B-80D9-A06C0399C596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitTyping", "ImplicitTyping\ImplicitTyping.csproj", "{124A60A9-0AF2-4C7B-80D9-A06C0399C596}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitConversionUserDefined", "ImplicitConversionUserDefined\ImplicitConversionUserDefined.csproj", "{AFC083FF-C8F4-42E7-8A5D-5AAC5DB9A82B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversionUserDefined", "ImplicitConversionUserDefined\ConversionUserDefined.csproj", "{AFC083FF-C8F4-42E7-8A5D-5AAC5DB9A82B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{802AFA08-7BC8-42AF-916B-0174D8AA659F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structs", "Structs\Structs.csproj", "{96E8B7B2-199A-4EFF-8F95-1CAF1743F631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualityMembers", "ConsoleApp3\EqualityMembers.csproj", "{98630D6E-E9E2-42FA-A2FC-D7B674055507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "Indexers\Indexers.csproj", "{6671FBA8-EFE1-4F44-AA7B-976B17110E49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +137,22 @@ Global
 		{AFC083FF-C8F4-42E7-8A5D-5AAC5DB9A82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFC083FF-C8F4-42E7-8A5D-5AAC5DB9A82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFC083FF-C8F4-42E7-8A5D-5AAC5DB9A82B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802AFA08-7BC8-42AF-916B-0174D8AA659F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802AFA08-7BC8-42AF-916B-0174D8AA659F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802AFA08-7BC8-42AF-916B-0174D8AA659F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802AFA08-7BC8-42AF-916B-0174D8AA659F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E8B7B2-199A-4EFF-8F95-1CAF1743F631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E8B7B2-199A-4EFF-8F95-1CAF1743F631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E8B7B2-199A-4EFF-8F95-1CAF1743F631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E8B7B2-199A-4EFF-8F95-1CAF1743F631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98630D6E-E9E2-42FA-A2FC-D7B674055507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98630D6E-E9E2-42FA-A2FC-D7B674055507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98630D6E-E9E2-42FA-A2FC-D7B674055507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98630D6E-E9E2-42FA-A2FC-D7B674055507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6671FBA8-EFE1-4F44-AA7B-976B17110E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6671FBA8-EFE1-4F44-AA7B-976B17110E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6671FBA8-EFE1-4F44-AA7B-976B17110E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6671FBA8-EFE1-4F44-AA7B-976B17110E49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,6 +176,10 @@ Global
 		{C3498159-EEB6-4FB7-80AA-2DBA9DECA2F2} = {10F5A881-0DD4-4088-8789-731029AFC27B}
 		{124A60A9-0AF2-4C7B-80D9-A06C0399C596} = {10F5A881-0DD4-4088-8789-731029AFC27B}
 		{AFC083FF-C8F4-42E7-8A5D-5AAC5DB9A82B} = {19C505CD-48C6-4A84-9029-B60421C2C87F}
+		{802AFA08-7BC8-42AF-916B-0174D8AA659F} = {19C505CD-48C6-4A84-9029-B60421C2C87F}
+		{96E8B7B2-199A-4EFF-8F95-1CAF1743F631} = {19C505CD-48C6-4A84-9029-B60421C2C87F}
+		{98630D6E-E9E2-42FA-A2FC-D7B674055507} = {19C505CD-48C6-4A84-9029-B60421C2C87F}
+		{6671FBA8-EFE1-4F44-AA7B-976B17110E49} = {19C505CD-48C6-4A84-9029-B60421C2C87F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D377785C-D1BF-4FDC-A340-E4F8D78E9687}
