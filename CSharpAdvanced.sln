@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzObjectOriented", "CSharpAdvanced\FizzBuzzObjectOriented.csproj", "{D5E3FA27-D7A8-4A1E-8CAD-D67916C3840F}"
 EndProject
@@ -51,13 +51,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitTyping", "ImplicitT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversionUserDefined", "ImplicitConversionUserDefined\ConversionUserDefined.csproj", "{AFC083FF-C8F4-42E7-8A5D-5AAC5DB9A82B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{802AFA08-7BC8-42AF-916B-0174D8AA659F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{802AFA08-7BC8-42AF-916B-0174D8AA659F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structs", "Structs\Structs.csproj", "{96E8B7B2-199A-4EFF-8F95-1CAF1743F631}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structs", "Structs\Structs.csproj", "{96E8B7B2-199A-4EFF-8F95-1CAF1743F631}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualityMembers", "ConsoleApp3\EqualityMembers.csproj", "{98630D6E-E9E2-42FA-A2FC-D7B674055507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualityMembers", "ConsoleApp3\EqualityMembers.csproj", "{98630D6E-E9E2-42FA-A2FC-D7B674055507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "Indexers\Indexers.csproj", "{6671FBA8-EFE1-4F44-AA7B-976B17110E49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexers", "Indexers\Indexers.csproj", "{6671FBA8-EFE1-4F44-AA7B-976B17110E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackableStateMachineDesignPattern", "StackableStateMachineDesignPattern\StackableStateMachineDesignPattern.csproj", "{62DF34DD-578E-4651-9521-AA586D573571}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{6671FBA8-EFE1-4F44-AA7B-976B17110E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6671FBA8-EFE1-4F44-AA7B-976B17110E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6671FBA8-EFE1-4F44-AA7B-976B17110E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DF34DD-578E-4651-9521-AA586D573571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DF34DD-578E-4651-9521-AA586D573571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DF34DD-578E-4651-9521-AA586D573571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DF34DD-578E-4651-9521-AA586D573571}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -180,6 +186,7 @@ Global
 		{96E8B7B2-199A-4EFF-8F95-1CAF1743F631} = {19C505CD-48C6-4A84-9029-B60421C2C87F}
 		{98630D6E-E9E2-42FA-A2FC-D7B674055507} = {19C505CD-48C6-4A84-9029-B60421C2C87F}
 		{6671FBA8-EFE1-4F44-AA7B-976B17110E49} = {19C505CD-48C6-4A84-9029-B60421C2C87F}
+		{62DF34DD-578E-4651-9521-AA586D573571} = {9E691550-192C-4061-9637-CE2F6DB5FE68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D377785C-D1BF-4FDC-A340-E4F8D78E9687}
