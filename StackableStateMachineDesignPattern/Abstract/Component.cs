@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace StackableStateMachineDesignPattern.Abstract
 {
-    public interface IZoneListener
+    public abstract class Component : IComponent
     {
-        void EntityMoved(Entity entity, Vector3 newPosition);
-        void EntityRemoved(Entity entity);
-        void EntityAdded(Entity entity);
+        public Entity Parent { get; set; }
     }
 }
