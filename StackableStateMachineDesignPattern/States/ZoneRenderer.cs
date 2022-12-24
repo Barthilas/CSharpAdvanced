@@ -124,7 +124,7 @@ namespace StackableStateMachineDesignPattern.States
         {
             var worldSpace = position.Y + 1;
             if (worldSpace >= _zone.Size.Y)
-                worldSpace--;
+                worldSpace = position.Y;
 
             Console.SetCursorPosition(position.X, worldSpace);
         }
