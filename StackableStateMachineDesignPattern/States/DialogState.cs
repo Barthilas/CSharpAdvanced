@@ -20,8 +20,8 @@ namespace StackableStateMachineDesignPattern.States
         public DialogState(Entity instigator, IDialog dialog)
         {
             _dialog = dialog;
-            SwitchScreen(_dialog.FirstScreen);
             _instigator = instigator;
+            SwitchScreen(_dialog.FirstScreen);
         }
 
         public void Activate()

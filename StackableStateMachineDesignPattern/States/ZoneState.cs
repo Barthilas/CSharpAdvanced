@@ -1,5 +1,6 @@
 ﻿using StackableStateMachineDesignPattern.Abstract;
 using StackableStateMachineDesignPattern.Model;
+using StackableStateMachineDesignPattern.Model.Components;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,7 +43,7 @@ namespace StackableStateMachineDesignPattern.States
             var pos = _player.Position;
             if (key.Key == ConsoleKey.Escape)
             {
-                Program.Engine.PushState(new MainMenuState());
+                Program.Engine.PushState(new MainMenuState(_player.GetComponent<PlayerComponent>().Player));
             }
             else if (key.Key == ConsoleKey.W)
                 _zone.MoveEntity(_player, new Vector3(pos.X, pos.Y - 1, pos.Z));
